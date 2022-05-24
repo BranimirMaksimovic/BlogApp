@@ -20,6 +20,10 @@ const Create = () => {
     });
   };
 
+  const handleCancel = () => {
+    history.push("/");
+  };
+
   return (
     <div className="create">
       <h2>Add a New Blog</h2>
@@ -44,6 +48,7 @@ const Create = () => {
         </select>
         <button>Add Blog</button>
       </form>
+      <button onClick={handleCancel}>Cancel</button>
     </div>
   );
 };
