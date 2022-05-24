@@ -12,7 +12,7 @@
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #1529ff;
 }
 .navbar h1 {
   color: #ffaa00;
@@ -41,7 +41,7 @@
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .blog-preview h2 {
   font-size: 20px;
