@@ -17,6 +17,9 @@ const BlogDetails = () => {
       history.push("/");
     });
   };
+  const handleCancel = () => {
+    history.push("/");
+  };
 
   return (
     <div className="blog-details">
@@ -28,6 +31,7 @@ const BlogDetails = () => {
           <p>Written by {blog.author}</p>
           <div>{blog.body}</div>
           <button onClick={handleClick}>delete</button>
+          <button onClick={handleCancel}>Cancel</button>
         </article>
       )}
     </div>
